@@ -374,25 +374,33 @@ span {
 
 
 
-
+.footer {
+    margin-top: 7rem;
+    width: 100%;
+}
 
 .foot {
     
-    align-items: center;
-    flex-direction: column;
-    margin: -0.5rem;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    margin: 0.5rem;
     color: #000;
     text-align: center;
     font-family: "Fira Code";
-    font-size: 25px;
+    font-size: 1.87rem;
     font-weight: 600;
-    
-}
-
-.foo{
     margin-top: 5rem;
 }
 
+
+.foots{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 5rem; */
+}
+
+
+/*
 .fin{
     color: #EC6E2B;
     text-align: center;
@@ -414,47 +422,44 @@ span {
   
 }
 
-
 .few{
     color: #000;
-    font-family:Arima  ;
-    font-size: 100px;
+    font-family: "Handjet" ;
+    font-size:  10rem;
     font-weight: 300rem;
     text-transform: uppercase;
     margin-bottom:-40rem ;
     margin-top: 3rem;
     position: relative;
-    top: 50px; /* Adjust to move it down */
-    
-   
-}
+    top: 90px; 
+} */
 
 /* p .few{
     margin: -7rem;
     margin-top: 3rem;
 } */
 
-.fonts{
+/* .fonts{
     align-items: center;
     text-align: end;
     margin-right: -8.5rem;
     margin-bottom: 0.05px;
     margin-top: -25rem;
-}
+} */
 
-.fonts img{
+/* .fonts img{
 margin-right: 14rem;
 margin-top: 5rem;
 
-}
+} */
 
-#count{
+/* #count{
     margin-bottom: 15rem;
-}
+} */
 
 
 
-.foots .fly, .flo,.fap, .fp, .fan{
+/* .foots .fly, .flo,.fap, .fp, .fan{
     margin-left: -9rem;
    
 
@@ -472,37 +477,24 @@ margin-top: 5rem;
 #lif{
     margin-bottom: 3rem;
     
-}
+} */
 
- .fot{
+ /* .fot{
    margin-top: 2rem;
-}
+} */
 
-#fan{
+/* #fan{
     font-weight: 600;
    margin-top: -2rem;
     margin-inline-start: -10rem;
-}
+} */
 
-.foot{
+/* .foot{
 margin-top:4rem;
 
 }
 
+ */
 
-
-/* Fade In Animation */
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.5s forwards; /* Change duration as needed */
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 

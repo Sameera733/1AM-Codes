@@ -1,14 +1,12 @@
 import React from 'react';
-import am from "../assets/logo.svg";
+import am from "../assets/Creators.svg";
 import "../styles/home.css";
 import arr from "../assets/arrow.svg";
 import line from "../assets/line.svg";
-import { useInView } from 'react-intersection-observer';
+
 
 const Home = () => {
-  const { ref: titleRef, inView: titleInView } = useInView({ triggerOnce: true });
-  const { ref: textRef, inView: textInView } = useInView({ triggerOnce: true });
-  const { ref: imageRef, inView: imageInView } = useInView({ triggerOnce: true });
+ 
 
   return (
     <>
@@ -25,21 +23,18 @@ const Home = () => {
       <div className="container">  
         <div className="hero">
           <p 
-            className={`title ${titleInView ? 'scroll-fade' : ''}`} 
-            ref={titleRef}
+            
           >
             REVOLUTIONIZE <br/> YOUR CODING WITH
           </p>
           <img 
             src={am} 
             alt="Hero" 
-            ref={imageRef} 
-            className={imageInView ? 'hero-image' : ''} // Add animation class
+         
           />
         </div>
         <h6 
-          className={`scroll-slide ${textInView ? 'scroll-fade' : ''}`} 
-          ref={textRef}
+          
         >
           Scroll to Explore
         </h6>

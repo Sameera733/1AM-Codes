@@ -17,7 +17,7 @@ import social from "../assets/social.svg";
 import Polygon from "../assets/Polygon.svg";
 import discordnew from "../assets/Discord New.png";
 import overlay from "../assets/overlay.png";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Bot = () => {
     const [showCodeEditor, setShowCodeEditor] = useState(false);
@@ -29,7 +29,7 @@ const Bot = () => {
 
     return (
         <div className="bot-container">
-            <div className="dev fade-in">
+            <div className="dev ">
                 <div className="left">
                     <p>
                         Your go-to platform for mastering code is now in your pocket. With <span>1AMcreators.com</span>, access world-class chatbot both free and premium, designed to elevate your skills, no matter where you are. Join a global community of passionate learners and start creating with confidence.
@@ -55,14 +55,14 @@ const Bot = () => {
                 <div className="temp fade-in">
                     <img className='dot' src={dot} alt='dot' />
                 </div>
-                <div className="exp fade-in">
+                <div className="exp ">
                     <p className="exe">Explore the <span>1AM</span> way</p>
                     <img src={ext} alt='line' />
                     <p id="le"><span>Learn</span></p>
                     <p id="in">Instantly and interactively</p>
                     <p id="out">Learn from carefully curated learning paths with up-to-date interactive courses, and receive 24x7 AI assistance as you develop your coding skills.</p>
                 </div>
-                <div className="js fade-in">
+                <div className="js ">
                     <img src={js} alt='jsx' />
                     <div className="hands">
                         <img src={lap} alt='Laptop' />
@@ -70,17 +70,17 @@ const Bot = () => {
                         <p id='at'>At 1AM, you get to learn by doing. Escape tutorial hell by solving real-world challenges in our interactive labs, all within your browser.</p>
                     </div>
                 </div>
-                <div className="cod fade-in">
+                <div className="cod ">
                     <p className="off">Code, Build, Deploy</p>
                     <img src={ext} alt='line' />
                     <p id="of"><span>Grow</span></p>
                     <p id="on">Expand your potential</p>
                 </div>
-                <div className="do fade-in">
+                <div className="do ">
                     <img src={dev} alt='Developer Image' />
                     <img src={overlay} alt='Overlay' className="overlay-image" />
                 </div>
-                <div className="da fade-in">
+                <div className="da ">
                     <p className="jo">Join the community of developers changing the world</p>
                     <p id="joo">Transform the way you learn coding and connect with other like-minded developers across the globe.</p>
                     <img src={Vector} alt='Vector Image' />
@@ -98,30 +98,41 @@ const Bot = () => {
                     <img src={soon} alt='Coming Soon' />
                 </div>
 
-                <div className="footer fade-in">
-                    <div className="foot">
+                <div className="footer ">
+                    <div className="hr">
                         <img src={horzline} alt='Horizontal Line' />
+                    </div>
+                
+                    <div className="foot">
+                        {/* <img src={horzline} alt='Horizontal Line' /> */}
                         <p className="foo">Got a project? Want to collaborate?</p>
-                        <p className="fin">Discuss your project <span><img src={Polygon} alt='Polygon' /></span></p>
+                        {/* <p className="fin">Discuss your project <span><img src={Polygon} alt='Polygon' /></span></p> */}
 
-                        <img src={Ellipse} alt='Ellipse' />
+                        {/* <img src={Ellipse} alt='Ellipse' /> */}
 
-                        <p className="fe">Terms & Conditions</p>
-                        <p className="few">Let’s work together</p>
+                        {/* <p id="fan">© Copyright 2024. 1AM. All rights reserved.</p> */}
+                        {/* <p className="fe">Terms & Conditions</p> */}
+                        {/* <img src={social} alt='Social Icons' /> */}
+                        {/* <p className="few">Let’s work together</p> */}
                     </div>
                     <div className="foots">
                         <p className="fly">Contact</p>
-                        <p id="lif"></p>
-                        <p className="flo">maaz.codes1@gmail.com</p>
-                        <p className="fap">faizafatima742@gmail.com</p>
-                        <p className="fp">sameerabegum324@gmail.com</p>
+                        <p className="fin">Discuss your project <span><img src={Polygon} alt='Polygon' /></span></p>
+                        <p id="count">Hyderabad, India</p>
+
+
+                        {/* <p className="flo"><a href="mailto:maaz.codes1@gmail.com">maaz.codes1@gmail.com</a></p>
+                        <p className="fap"><a href="mailto:faizafatima742@gmail.com">faizafatima742@gmail.com</a></p>
+                        <p className="fp"><a href="mailto:sameerabegum324@gmail.com">sameerabegum324@gmail.com</a></p> */}
                     </div>
                     <div className="fot">
-                        <p id="fan">© Copyright 2024. 1AM. All rights reserved.</p>
+                        <p className="flo"><a href="mailto:maaz.codes1@gmail.com">maaz.codes1@gmail.com</a></p>
+                        <p className="fap"><a href="mailto:faizafatima742@gmail.com">faizafatima742@gmail.com</a></p>
+                        <p className="fp"><a href="mailto:sameerabegum324@gmail.com">sameerabegum324@gmail.com</a></p>
                     </div>
                     <div className="fonts">
-                        <p id="count">Hyderabad, India</p>
-                        <img src={social} alt='Social Icons' />
+                        {/* <p id="count">Hyderabad, India</p> */}
+                        {/* <img src={social} alt='Social Icons' /> */}
                     </div>
                 </div>
             </div>

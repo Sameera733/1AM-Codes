@@ -78,6 +78,7 @@ body {
     align-items: center;
     justify-items: center;
     flex-direction: column;
+   
 }
 
 h6 {
@@ -86,7 +87,7 @@ h6 {
     text-transform: uppercase;
     font-size: medium;
     margin-bottom: 0.4rem;
-    margin-top: 12.4rem;
+    margin-top: 2.4rem;
    
 }
 
@@ -97,7 +98,9 @@ h6 {
     font-family: "Handjet";
     font-size: 150px;
     font-weight: 700;
+    margin-top: 7rem;
     margin-bottom: 0;
+    line-height: 8rem;
 }
 
 .arrow {
@@ -109,7 +112,9 @@ h6 {
 }
 
 .hero img{
-    height: 8rem;
+  margin-top: 2rem;
+    height: 10rem;
+
 }
 
 .title {
