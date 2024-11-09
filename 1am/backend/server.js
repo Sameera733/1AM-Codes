@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 // Initialize Groq with your API key
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: "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",
 });
 
 // Get the current directory name using import.meta.url
