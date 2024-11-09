@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Handjet');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("BG.svg");
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    font-family: "Fira Code";
+    margin: 0 0 50px;
+}
+
+h2 {
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 1); */
+    color: #EB6E2B;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Handjet";
+    font-size: 4rem;
+}
+
+.chat-container {
+    background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.7);
+    /* overflow: hidden; */
+    padding: 15px;
+    position: relative;
+    width: 1000px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.msg {
+    border-radius: 25px;
+    position: relative;
+    /* margin-bottom: 10px; */
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    /* box-shadow: 0px 2px 2px 5px rgba(0,0,0,0.5); */
+}
+
+.msg p {
+    height: auto;
+    margin: 0;
+}
+
+.msg.bot {
+    max-width: fit-content;
+
+    /* padding: 15px 20px 15px 70px; */
+    /* text-align: left; */
+}
+
+.msg.user {
+    max-width: fit-content;
+
+    text-align: right;
+    align-self: flex-end;
+    /* padding: 15px 70px 15px 20px; */
+}
+
+.text-input {
+    position: relative;
+    border-radius: 25px;
+    font-size: 17px;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+}
+
+footer {
+    /* margin-top: 20px; */
+    background-color: #5d5c5c;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* z-index: 999; */
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: rgb(100, 6, 6);
+}
+
+footer a {
+    color: #EB6E2B;
+    text-decoration: none;
+}
