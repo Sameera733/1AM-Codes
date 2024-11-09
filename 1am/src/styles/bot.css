@@ -74,7 +74,7 @@ span {
     max-width: fit-content;
     margin: 10%;
     /* padding-top: 10%; */
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     flex-direction: column;
     margin-bottom: -40rem;
     
@@ -464,7 +464,7 @@ span {
 }
 
 .few {
-    font-size: 9rem;
+    font-size: 8.3rem;
     font-weight: 500;
     font-family: "Anton";
     margin: 0;
