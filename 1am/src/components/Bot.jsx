@@ -32,12 +32,12 @@ const Bot = () => {
             <div className="dev ">
                 <div className="left">
                     <p>
-                        Your go-to platform for mastering code is now in your pocket. With <span>1AMcreators.com</span>, access world-class chatbot both free and premium, designed to elevate your skills, no matter where you are. Join a global community of passionate learners and start creating with confidence.
+                        Your go-to platform for mastering code is now on your fingertips. With <span>1AMcreators.com</span>, access world-class chatbot both free and premium, designed to elevate your skills, no matter where you are.
                     </p>
 
                     <Link to="/code-editor">
                         <button>
-                            Open Code Editor <span><img src={discordnew} alt="Discord Icon" /></span>
+                            Code Editor <span><img src={discordnew} alt="Discord Icon" /></span>
                         </button>
                     </Link>
                 </div>
@@ -102,7 +102,7 @@ const Bot = () => {
                     <div className="hr">
                         <img src={horzline} alt='Horizontal Line' />
                     </div>
-                
+
                     <div className="foot">
                         {/* <img src={horzline} alt='Horizontal Line' /> */}
                         <p className="foo">Got a project? Want to collaborate?</p>
@@ -117,7 +117,7 @@ const Bot = () => {
                     </div>
                     <div className="foots">
                         <p className="fly">Contact</p>
-                        <p className="fin">Discuss your project <span><img src={Polygon} alt='Polygon' /></span></p>
+                        {/* <p className="fin">Discuss your project <span><img src={Polygon} alt='Polygon' /></span></p> */}
                         <p id="count">Hyderabad, India</p>
 
 
@@ -131,9 +131,27 @@ const Bot = () => {
                         <p className="fp"><a href="mailto:sameerabegum324@gmail.com">sameerabegum324@gmail.com</a></p>
                     </div>
                     <div className="fonts">
-                        {/* <p id="count">Hyderabad, India</p> */}
-                        {/* <img src={social} alt='Social Icons' /> */}
+                        <img id='ele' src={Ellipse} alt='Ellipse' />
+                        <div className="work">
+                            <div className="top">
+                                <p id="fan">© Copyright 2024. 1AM. All rights reserved.</p>
+                                <p className="fe">Terms & Conditions</p>
+                                <img id="ico" src={social} alt='Social Icons' />
+                            </div>
+                            <p className="few">Let’s work together</p>
+                        </div>
+
                     </div>
+                    {/* <div className="work"> */}
+                    {/* <div className="top">
+                            <p id="fan">© Copyright 2024. 1AM. All rights reserved.</p>
+                            <p className="fe">Terms & Conditions</p>
+                            <img id="ico" src={social} alt='Social Icons' />
+                        </div>
+                        <p className="few">Let’s work together</p> */}
+
+                    {/* </div> */}
+
                 </div>
             </div>
         </div>

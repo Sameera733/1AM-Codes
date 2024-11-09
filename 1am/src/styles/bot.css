@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
 
 
 .dev {
@@ -72,7 +73,7 @@ span {
     justify-items: center;
     max-width: fit-content;
     margin: 10%;
-    padding-top: 10%;
+    /* padding-top: 10%; */
     padding-bottom: 5%;
     flex-direction: column;
     margin-bottom: -40rem;
@@ -312,7 +313,7 @@ span {
 #roo,
 #boo {
     color: #000;
-    font-family: 'fira-code';
+    font-family: 'Fira Code';
     font-size: 25px;
     font-weight: 400;
     margin-left: 10rem;
@@ -379,6 +380,10 @@ span {
     width: 100%;
 }
 
+.hr {
+    align-items: center;
+}
+
 .foot {
     
     /* align-items: center; */
@@ -398,6 +403,82 @@ span {
     justify-content: space-between;
     /* margin-top: 5rem; */
 }
+
+.fly {
+    font-family: "arial";
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    color: #000;
+}
+
+.fin {
+    color: #EC6E2B;
+    /* text-align: center; */
+    font-family: "Fira Code";
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.26rem;
+}
+
+#count {
+    color: #000;
+    font-family: "Fira Code";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fot p a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Fira Code";
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: normal;
+    font-style: normal;
+}
+
+
+#ele {
+    margin-top: -10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fan .fe {
+    color: #000;
+    font-family: Arial;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.few {
+    font-size: 9rem;
+    font-weight: 500;
+    font-family: "Anton";
+    margin: 0;
+    line-height: 9rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.work {
+    margin-top: -15%;
+}
+
+
 
 
 /*
